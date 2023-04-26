@@ -1,0 +1,82 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+background-image: url("https://i.pinimg.com/originals/09/01/f0/0901f088d78988a5b6bc66af7cfbfec8.jpg");
+width:100vh;
+height: 100vh;
+}
+
+h1{
+	font-size:60px;
+	padding:10px;
+	display:flex;
+	justify-content:center;
+	align-items:center; 
+background:linear-gradient(to right, #11d643 10%, #0981c7 50%, #cdf614 90%) ;
+background-size: 200% auto;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: animate2 3.5s linear infinite;
+text-align: center;
+font-family: Helvetica;
+color: #FFF;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+
+}
+@keyframes animate2{
+to{
+    background-position:200%;
+    
+}
+}
+
+h3{
+    color:#fff; 
+    font-family: Helvetica;
+    font-size:30px;
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+}
+
+select{
+    border-radius:5px;
+    width:150px;
+    height:25px;
+    margin-top:20px;
+    text-align:center;
+    font-size:20px;
+}
+
+.bt{
+width:150px;
+height:30px;
+font-size:23px;
+background-color:#7be028;
+border-radius:50px;
+transition:.2s;
+}
+
+.bt:hover {
+    background: #13b363;
+    text-decoration: none;
+  }
+
+.btn{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
